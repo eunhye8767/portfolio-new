@@ -1,0 +1,11 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "npm.keybindingsChangedWarningShown": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
