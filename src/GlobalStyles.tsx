@@ -1,5 +1,5 @@
-import React from 'react';
 import { Global, css } from '@emotion/react';
+import 'fonts/fonts.css';
 
 const GlobalStyles = () => (
   <Global
@@ -12,10 +12,15 @@ const GlobalStyles = () => (
         box-sizing: border-box;
       }
 
+      html,
+      body {
+        font-family: 'Pretendard', sans-serif;
+        font-weight: 400;
+        color: #000;
+        line-height: 1.5;
+      }
+
       html {
-        font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-          'Apple Color Emoji', 'Segoe UI Emoji';
-        line-height: 1.15;
         -webkit-text-size-adjust: 100%;
         -moz-tab-size: 4;
         tab-size: 4;

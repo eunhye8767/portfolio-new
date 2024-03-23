@@ -13,6 +13,9 @@ function App() {
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
           </p>
+          <p style={{ fontSize: '100px' }}>
+            안녕하세요 가나다라마바사아자차카타파하
+          </p>
           <a
             className="App-link"
             href="https://reactjs.org"

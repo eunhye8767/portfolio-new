@@ -5,7 +5,7 @@ interface TextLabelStyleProps {
 }
 
 const Label = styled.p<TextLabelStyleProps>`
-  font-size: 16px;
+  font-size: 100px;
   font-weight: 400;
   color: ${({ color }) => color};
 `;
